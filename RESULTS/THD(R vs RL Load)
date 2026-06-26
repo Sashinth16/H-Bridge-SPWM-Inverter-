@@ -1,1 +1,5 @@
-THD remained essentially unchanged at 2.54% under RL load versus 2.45% resistive — a difference of less than 0.1%. This confirms the LC filter is effective regardless of load type. Output power dropped slightly because the load inductor absorbs reactive power, increasing the current phase lag and reducing power factor, but the inverter handles this cleanly through body diode freewheeling during dead time intervals.
+THD remained essentially unchanged at 2.54% under RL load versus 2.45% resistive — a difference of less than 0.1%. 
+This confirms the LC filter is effective regardless of load type. 
+Output power dropped slightly because the load inductor absorbs reactive power, 
+increasing the current phase lag and reducing power factor, 
+but the inverter handles this cleanly through body diode freewheeling during dead time intervals.
