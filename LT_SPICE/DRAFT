@@ -1,0 +1,6 @@
+Single-Phase H-Bridge SPWM Inverter | LTSpice | Infineon SPA11N60C3 CoolMOS
+
+Designed and simulated a full-bridge DC-AC inverter converting a 200V DC bus to a 50Hz sinusoidal AC output using Sinusoidal PWM at 50kHz switching frequency; implemented 300ns dead time to eliminate shoot-through, verified via gate waveform analysis; designed a 5kHz LC output filter achieving THD of 2.45% (resistive) and 2.54% (RL load), both within the 5% target; simulated efficiency of 99% with realistic estimate of 95–97% accounting for switching losses, gate drive power, and core losses.
+
+
+
