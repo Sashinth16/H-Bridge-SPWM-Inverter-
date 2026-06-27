@@ -1,0 +1,41 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\Users\sashi\OneDrive\Documents\LTspice\Draft5.net
+Start Time: Fri Jun 26 15:13:30 2026
+Options: reltol=0.01 abstol=1m vntol=1m
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+abstol = 0.001
+reltol = 0.01
+volttol = 0.001
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 36.146 seconds.
+
+Files loaded:
+C:\Users\sashi\OneDrive\Documents\LTspice\Draft5.net
+C:\Users\sashi\AppData\Local\LTspice\lib\cmp\standard.mos
+
+Fourier components of V(v_out, phase_b)
+N-Period=1
+DC component:-0.00154893
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	 5.000e+01	 1.575e+02	 1.000e+00	   89.68°	    0.00°
+    2   	 1.000e+02	 8.227e-04	 5.224e-06	   77.97°	  -11.71°
+    3   	 1.500e+02	 1.550e+00	 9.840e-03	  105.20°	   15.52°
+    4   	 2.000e+02	 4.467e-03	 2.836e-05	  104.50°	   14.82°
+    5   	 2.500e+02	 2.604e+00	 1.653e-02	  115.53°	   25.85°
+    6   	 3.000e+02	 2.891e-03	 1.836e-05	 -116.35°	 -206.03°
+    7   	 3.500e+02	 2.591e-01	 1.645e-03	  122.55°	   32.87°
+    8   	 4.000e+02	 4.049e-03	 2.571e-05	  -12.02°	 -101.70°
+    9   	 4.500e+02	 1.229e+00	 7.801e-03	  -43.44°	 -133.12°
+   10   	 5.000e+02	 1.970e-03	 1.251e-05	   25.01°	  -64.67°
+Partial Harmonic Distortion: 2.082637%
+Total Harmonic Distortion:   2.542222%
+
+pout: AVG(V(v_out,phase_b)*I(R1))=79.2259636475 FROM 0.04 TO 0.06
+pin: AVG(V(+vdc_200v)*(-I(V1)))=80.0098889357 FROM 0.04 TO 0.06
+efficiency: (Pout/Pin)*100=99.0202145027
